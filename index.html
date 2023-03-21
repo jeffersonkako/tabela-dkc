@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabela DEKRA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Tabela DEKRA</h1>
+    </header>
+    <section>
+      <div>
+        <label for="desc">Vistoria: </label>
+        <select name="vistoria" id="vistoria">
+          <option value="1">Cautelar Sem Pintura</option>
+          <option value="2">Cautelar Com Pintura</option>
+          <option value="3">Dekra Garantido</option>
+        </select>
+      </div>
+      <div>
+        <label for="fipe">FIPE do veículo: </label>
+        <input type="number" name="fipe" id="fipe" placeholder="ex: 100000">
+      </div>
+      <div>
+        <label for="desc">Desconto: </label>
+        <select name="desconto" id="desconto">
+          <option value="0">Não possui</option>
+          <option value="10">10%</option>
+          <option value="15">15%</option>
+          <option value="20">20%</option>
+          <option value="25">25%</option>
+        </select>
+      </div>
+      <div>
+          <input type="button" value="Calcular" id="btn" onclick="Calcular()">
+      </div>
+      <div>
+        <p id="resultado"></p>
+        <p id="res-desconto"></p>
+      </div>
+  </div>
+<script src="/script.js"></script>
+</body> 
+</html>
