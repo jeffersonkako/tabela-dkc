@@ -11,9 +11,10 @@ body {
   height: 480px;
   padding: 20px;
   border-radius: 30px;
-  margin: 100px auto;
+  margin: 150px auto;
   color: #141414;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.585);
+  align-items: center;
 }
 
 input {
