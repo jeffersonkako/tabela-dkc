@@ -12,21 +12,21 @@ function Calcular() {
     let laudo = 0
     if (n1 <= 100000){
       laudo = 150
-      resultado.innerHTML = `<strong>Valor da vistoria é R$${laudo}!</strong>`
+      resultado.innerHTML = `<strong>Valor da vistoria --> R$ ${laudo}</strong>`
     } else if (n1 > 100000 && n1 <= 200000) {
       laudo = 250
-      resultado.innerHTML = `<strong>Valor da vistoria é R$${laudo}!</strong>`
+      resultado.innerHTML = `<strong>Valor da vistoria --> R$ ${laudo}</strong>`
     }else if (n1 > 200000 && n1 <= 300000 ){
       laudo = 350
-      resultado.innerHTML = `<strong>Valor da vistoria é R$${laudo}!</strong>`
+      resultado.innerHTML = `<strong>Valor da vistoria --> R$ ${laudo}</strong>`
     }else {
       laudo = n1
       laudo = laudo * 0.002
-      resultado.innerHTML = `<strong>Valor da vistoria é R$${laudo}!</strong>`
+      resultado.innerHTML = `<strong>Valor da vistoria --> R$ ${laudo}</strong>`
     }
     let desc = laudo - (laudo * (n2/100))
     if (n2 > 0){
-    res.innerHTML = `Com desconto de ${n2}% fica R$ ${desc}!`
+    res.innerHTML = `Com desconto de ${n2}% --> R$ ${desc}`
     res.style.color = '#007d4d'
     }else {
     res.innerHTML = ''
@@ -35,21 +35,21 @@ function Calcular() {
     let laudo = 0
     if (n1 <= 100000){
       laudo = 250
-      resultado.innerHTML = `<strong>Valor da vistoria é R$${laudo}!</strong>`
+      resultado.innerHTML = `<strong>Valor da vistoria --> R$ ${laudo}</strong>`
     } else if (n1 > 100000 && n1 <= 200000) {
       laudo = 350
-      resultado.innerHTML = `<strong>Valor da vistoria é R$${laudo}!</strong>`
+      resultado.innerHTML = `<strong>Valor da vistoria --> R$ ${laudo}</strong>`
     }else if (n1 > 200000 && n1 <= 300000 ){
       laudo = 450
-      resultado.innerHTML = `<strong>Valor da vistoria é R$${laudo}!</strong>`
+      resultado.innerHTML = `<strong>Valor da vistoria --> R$ ${laudo}</strong>`
     }else {
       laudo = n1
       laudo = laudo * 0.002
-      resultado.innerHTML = `<strong>Valor da vistoria é R$${laudo}!</strong>`
+      resultado.innerHTML = `<strong>Valor da vistoria --> R$ ${laudo}</strong>`
     }
     let desc = laudo - (laudo * (n2/100))
     if (n2 > 0){
-    res.innerHTML = `Com desconto de ${n2}% fica R$ ${desc}!`
+    res.innerHTML = `Com desconto de ${n2}% --> R$ ${desc}`
     res.style.color = '#007d4d'
     }else {
     res.innerHTML = ''
@@ -58,21 +58,21 @@ function Calcular() {
       let laudo = 0
       if (n1 <= 100000){
         laudo = 350
-        resultado.innerHTML = `<strong>Valor da vistoria é R$${laudo}!</strong>`
+        resultado.innerHTML = `<strong>Valor da vistoria --> R$ ${laudo}</strong>`
       } else if (n1 > 100000 && n1 <= 200000) {
         laudo = 450
-        resultado.innerHTML = `<strong>Valor da vistoria é R$${laudo}!</strong>`
+        resultado.innerHTML = `<strong>Valor da vistoria --> R$ ${laudo}</strong>`
       }else if (n1 > 200000 && n1 <= 300000 ){
         laudo = 550
-        resultado.innerHTML = `<strong>Valor da vistoria é R$${laudo}!</strong>`
+        resultado.innerHTML = `<strong>Valor da vistoria --> R$ ${laudo}</strong>`
       }else {
         laudo = n1
         laudo = laudo * 0.002
-        resultado.innerHTML = `<strong>Valor da vistoria é R$${laudo}!</strong>`
+        resultado.innerHTML = `<strong>Valor da vistoria --> R$ ${laudo}</strong>`
       }
       let desc = laudo - (laudo * (n2/100))
       if (n2 > 0){
-      res.innerHTML = `Com desconto de ${n2}% fica R$ ${desc}!`
+      res.innerHTML = `Com desconto de ${n2}% --> R$ ${desc}`
       res.style.color = '#007d4d'
       }else {
       res.innerHTML = ''

@@ -6,17 +6,28 @@ body {
   background-color: #007d4d;
   color: white;
 }
+.titulo{
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  width: 200px;
+}
 
 .container {
   background-color: whitesmoke;
-  width: 350px;
-  height: 480px;
+  width: 400px;
   padding: 20px;
   border-radius: 30px;
-  margin: 150px auto;
+  margin: auto;
+  margin-top: 150px;
   color: #141414;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.585);
-  align-items: center;
+}
+
+.conteudo {
+  margin-top: 30px;
 }
 
 input {
@@ -25,8 +36,8 @@ input {
   font-size: 20px;
   width: 150px;
   border-radius: 15px;
-  text-align: center;
   border: 2px solid black;
+  text-align: center;
 }
 
 select {
@@ -56,5 +67,17 @@ select {
   background-color: #007d4d;
   color: white;
   cursor: pointer;
+}
+
+footer {
+  font-size: 15px;
+  color: white;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
 }
 
