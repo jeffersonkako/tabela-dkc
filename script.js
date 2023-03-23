@@ -1,11 +1,13 @@
+
 function Calcular() {
-  let fipe = document.getElementById('fipe')
+  let fipe = document.getElementById('fipe').value
   let desconto = document.getElementById('desconto')
   let resultado = document.getElementById('resultado')
   let res = document.getElementById('res-desconto')
   let vist = document.getElementById('vistoria').value
 
-  let n1 = Number(fipe.value)
+  // Transformando o numero em inteiro e removendo os caracteres.
+  let n1 = Number(parseInt(fipe.replace(/\D/g, "")))
   let n2 = Number(desconto.value)
   
   if (vist == 1) {
