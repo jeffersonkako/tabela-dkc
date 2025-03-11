@@ -1,4 +1,4 @@
-# tabela
+# tabela dkc
 
 WebApp para consulta de valores das vistorias DEKRA.
 site: https://tabeladkc.vercel.app
